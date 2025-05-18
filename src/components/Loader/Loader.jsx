@@ -1,5 +1,4 @@
 import { RingLoader } from "react-spinners";
-import mycss from "./loader.module.css";
 
 const override = {
   display: "block",
