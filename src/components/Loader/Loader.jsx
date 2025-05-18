@@ -8,7 +8,7 @@ const override = {
 };
 const Loader = ({ loading }) => {
   return (
-      <div className={mycss.sweet-loading}>
+      <div className="sweet-loading">
       <RingLoader
         color="#4B0082"
         loading={loading}
