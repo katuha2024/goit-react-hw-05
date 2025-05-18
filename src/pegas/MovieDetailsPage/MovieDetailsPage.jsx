@@ -13,7 +13,7 @@ import Loader from "../../components/Loader/Loader";
 
 import { fetchDetailsFilm } from "../../films-api";
 
-const MovieDetail = () => {
+const MovieDetailsPage = () => {
   const location = useLocation();
   const backLinkRef = useRef(location.state?.from ?? "/movies");
   const { filmId } = useParams();
