@@ -1,0 +1,5 @@
+.NotFoundPage{
+    background: url(../../assets/404-page.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}

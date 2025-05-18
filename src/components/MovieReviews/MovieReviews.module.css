@@ -1,0 +1,29 @@
+.reviewItem {
+    border-bottom: 1px solid #ccc;
+    padding: 12px 0;
+    text-align: left;
+    font-size: 14px;
+  }
+  
+  .reviewAuthor {
+    font-weight: bold;
+    margin-bottom: 4px;
+  }
+  
+  .reviewContent {
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    line-clamp: 4;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 14px;
+    line-height: 1.5;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .expanded {
+    -webkit-line-clamp: unset;
+    overflow: visible;
+  }
