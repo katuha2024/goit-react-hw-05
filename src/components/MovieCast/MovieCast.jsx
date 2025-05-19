@@ -14,7 +14,7 @@ export default function MovieCast() {
     setIsLoading(true);
     setIsError(false);
     fetchCast(filmId)
-      .then((actors) => setActors(actors))
+      .then((data) => setActors(data.cast))
       .catch(() => setIsError(true))
       .finally(() => setIsLoading(false));
   }, [filmId]);

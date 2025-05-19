@@ -15,7 +15,7 @@ export default function MovieReviews() {
     setIsLoading(true);
     setIsError(false);
     fetchReviews(filmId)
-      .then((reviews) => setReviews(reviews))
+      .then((data) => setReviews(data.results))
       .catch(() => setIsError(true))
       .finally(() => setIsLoading(false));
   }, [filmId]);
