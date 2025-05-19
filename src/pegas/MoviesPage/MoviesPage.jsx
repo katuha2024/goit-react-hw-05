@@ -41,7 +41,7 @@ const MoviesPage = () => {
     setIsError(false);
     fetchFilmSearcht(debounceQuery)
       .then((data) => {
-        setMovies(data);
+        setMovies(data.results);
         setIsError(false);
       })
       .catch((error) => {

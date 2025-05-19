@@ -14,7 +14,7 @@ export default function HomePage() {
     setIsError(false);
     fetchFilmList()
       .then((data) => {
-        setFilms(data);
+        setFilms(data.results);
         setIsError(false);
       })
       .catch((error) => {

@@ -14,7 +14,7 @@ const Search = ({ onSubmit, onChange, query }) => {
         onChange={onChange}
       />
       <button className={myStyles.btn} type="submit">
-        <FcSearch  size="16px" />
+        <FcSearch  size="24px" />
       </button>
     </form>
   );
