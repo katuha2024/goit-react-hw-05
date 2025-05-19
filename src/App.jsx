@@ -5,10 +5,10 @@ import MovieCast from "./components/MovieCast/MovieCast";
 import MovieReviws from "./components/MovieReviews/MovieReviews";
 
 import { lazy, Suspense } from "react";
-const HomePage = lazy(() => import("./pegas/HomePage/HomePage"));
-const MoviesPage = lazy(() => import("./pegas/MoviesPage/MoviesPage"));
-const NotFoundPage = lazy(() => import("./pegas/NotFoundPage/NotFoundPage"));
-const MovieDetailsPage = lazy(() => import("./pegas/MovieDetailsPage/MovieDetailsPage"));
+const HomePage = lazy(() => import("./pages/HomePage/HomePage"));
+const MoviesPage = lazy(() => import("./pages/MoviesPage/MoviesPage"));
+const NotFoundPage = lazy(() => import("./pages/NotFoundPage/NotFoundPage"));
+const MovieDetailsPage = lazy(() => import("./pages/MovieDetailsPage/MovieDetailsPage"));
 
 function App() {
   return (
@@ -29,5 +29,4 @@ function App() {
     </div>
   );
 }
-
 export default App;
